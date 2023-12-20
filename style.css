@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seca{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+.l{
+    width: 10%;
+    height: 100%;
+    background-color:#0F1014;
+    position: fixed;
+}
+.l img{
+    width: 100%;
+    height: 100px;
+}
+.l button{
+    width: 70%;
+    height: 20px;
+    color: chocolate;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #27231E;
+
+}
+.l i{
+    
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.r{
+    width: 90%;
+    height: 350px;
+    background-color:#27231E ;
+    margin-left: 10%;
+}
+.b1{
+    width: 95%;
+    height: 80%;
+    background-color: black;
+    margin-top: 30px;
+    display: flex;
+}
+.left{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid white; */
+    color: white;
+}
+.right img{
+    width: 100px ;
+    height: 50px;
+}
+.right button{
+    width: 120px;
+    height: 40px;
+    background-color:#252833;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: 160px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+}
+/* --------Section B--------- */
+.b2{
+    width: 100%;
+    height: 900px;
+    background-color:lightblue;
+    margin-top: 40px;
+    background-color: #0F1014;
+    display: flex;
+}
+.im{
+    width: 70%;
+    height: 100%;
+    /* border: 5px solid red; */
+    background-image: url(imgs/jawan.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    animation-name: im;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes im{
+    10%{background-image: url(imgs/pream.jpg);}
+    40%{background-image: url(imgs/rabata.jpg);}
+    70%{background-image: url(imgs/kabir.jpg);}
+    90%{background-image: url(imgs/brama.jpg);}
+}
+.im2{
+    width: 30%;
+    height: 100%;
+    /* border: 5px solid indigo; */
+}
+.b0{
+    width: 90%;
+    height:30%;
+    margin: auto;
+    /* border: 3px solid olive; */
+    margin-top: 20px;
+}
+.b0 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ----Section 3-------- */
+.b3{
+    width: 100%;
+    height: 350px;
+    background-color:#0F1014;
+    /* margin-top: 70px; */
+    color: white;
+}
+.h1{
+   font-size: 30px;
+   font-weight: bold;
+   padding-top: 10px;
+}
+.box{
+    width: 175px;
+    height: 250px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.box img:hover{
+    transform: scale(1.2,1.2);
+    width: 185px;
+    height: 260px;
+}
+/* ------footer--------------- */
+.foot{
+    width: 100%;
+    height: 280px;
+    background-color:#0F1014;
+}
+.bx1{
+    width: 25%;
+    height: 100%;
+    /* border: 3px solid olive; */
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+.bx1 i{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+p{
+    color: gray;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.bx2{
+    width: 100%;
+    height: 200px;
+    background-color:#0F1014;
+    position: relative;
+    bottom: 40px;
+    padding-top: 50px;
+}
+.bx2 p{
+    color:gray;
+    position: relative;
+    bottom: 30px;
+}
+.ii{
+    width: 200px;
+    height: 30%;
+    position: relative;
+    bottom: 80px;
+    left: 700px;
+}
+.iii{
+    width: 200px;
+    height: 30%;
+    position: relative;
+    bottom: 80px;
+    left: 700px;
+
+}
